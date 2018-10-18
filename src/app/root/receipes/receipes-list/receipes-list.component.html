@@ -1,0 +1,6 @@
+<div class="row">
+    <div class="col-xs-12">
+      <button class="btn btn-primary">New Receipe</button>
+    </div>
+</div>
+<app-receipes-item *ngFor="let receipeEl of receipes" [receipe]='receipeEl'></app-receipes-item>

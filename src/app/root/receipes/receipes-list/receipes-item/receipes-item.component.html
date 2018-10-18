@@ -1,0 +1,14 @@
+<div class="row" (click)="onSelected()">
+    <hr>
+      <div class="col-xs-12">
+        <a href="#" class="list-group-item clearfix">
+          <div class="pull-left col-sm-8">
+              <h3 class="list-group-item-heading">{{receipe.name}}</h3>
+              <div class="list-group-item-text">{{receipe.description}}</div>
+          </div>
+          <span class="pull-right col-sm-4">
+              <img alt="{{receipe.imagePath}}" [src]="receipe.imagePath" class="img-responsive" style="max-height: auto"/>
+          </span>
+        </a>
+      </div>
+  </div>
